@@ -43,7 +43,7 @@ jobs:
   deploy:
     runs-on: windows-latest
     needs: build
-    __environment__
+    environment: production
     
     steps:
       - name: Download artifact from build job
