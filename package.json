@@ -15,5 +15,5 @@
     "os": "^0.1.2",
     "path": "^0.12.7"
   },
-  "main": "src/{index.js,functions/*.js}"
+  "main": "src/{index.js,functions/*.js, functions/*.json}"
 }
