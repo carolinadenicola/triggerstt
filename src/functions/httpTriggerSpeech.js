@@ -15,7 +15,7 @@ app.http('httpTriggerSTT', {
         try {
             // Receber o vídeo em base64 do corpo da requisição
             const requestBody = await request.json();
-            const videoBase64 = requestBody.audio_base64;
+            const videoBase64 = requestBody.text;
             if (!videoBase64) {
                 return { status: 400, body: "Base64 de vídeo não encontrado na solicitação" };
             }
